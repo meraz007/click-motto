@@ -1,0 +1,1 @@
+export const PEXELS_API_KEY = 'U6CcpU4fh2fG7NLuY0IudOE94FnXUOK0Wid3clyPEDr5l6Gu5D5gN2f1';
