@@ -3,12 +3,11 @@ import { useState, useEffect } from 'react';
 import { PEXELS_API_KEY } from '../config';
 
 function PhotoGallery() {
-  const [photos, setPhotos] = useState([]);
+  const [photos, setPhotos] = useState<any[]>([]);
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
-    console.log('click')
   };
   useEffect(() => {
     async function fetchPhotos() {
